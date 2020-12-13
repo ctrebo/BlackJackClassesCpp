@@ -1,0 +1,2 @@
+D:\Dev\VS Scripts\CPP Tut Scripts\BlackJackClasssCpp\Debug\BlackJackClasssCpp.exe
+D:\Dev\VS Scripts\CPP Tut Scripts\BlackJackClasssCpp\Debug\BlackJackClasssCpp.pdb
