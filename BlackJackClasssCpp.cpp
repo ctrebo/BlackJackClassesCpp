@@ -82,10 +82,17 @@ bool playBlackjack(Deck& deck)
 
 int main()
 {
-	Deck deck{};
-	deck.print();
-	
-	return 0;
+    Deck deck{};
+
+    deck.shuffle();
+
+    if (playBlackjack(deck))
+    {
+        std::cout << "You win!\n";
+    }
+    else
+    {
+        std::cout << "You lose!\n";
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
