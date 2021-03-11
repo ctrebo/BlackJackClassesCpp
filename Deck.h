@@ -18,13 +18,13 @@ public:
 
 private:
   array_type m_deck{};
+  index_type m_cardIndex{0};
+
 
 public:
-    void print();
-
-
-    void shuffle();
-
     Deck();
+    void print();
+    void shuffle();
+    Card& dealCard();
 };
 #endif
